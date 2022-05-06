@@ -6,8 +6,7 @@ The content will be released just before the workshop and will be accessible eve
 # Getting Started
 To ensure you are ready for the workshop kindly follow these steps:
 1.	Setup your environment for Python 3.8 (newer versions should be OK as well)
-    - it generally shouldn't matter which tool you use
-      - we have tested virtualenv and conda
+    - it generally shouldn't matter which tool you use (we have tested virtualenv and conda)
     - based on your tool of choice, use **pip** `requirements.txt` or **conda** `environment.yml` and install the required packages
 
 # Contribute
