@@ -1,4 +1,6 @@
 absl-py==1.0.0
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
 asttokens==2.0.5
 astunparse==1.6.3
 attrs==21.4.0
@@ -8,6 +10,7 @@ black==22.3.0
 bleach==5.0.0
 cachetools==5.0.0
 certifi==2021.10.8
+cffi==1.15.0
 charset-normalizer==2.0.12
 click==8.1.3
 cloudpickle==2.0.0
@@ -35,6 +38,7 @@ importlib-metadata==4.11.3
 importlib-resources==5.7.1
 ipykernel==6.13.0
 ipython==8.3.0
+ipython-genutils==0.2.0
 jedi==0.18.1
 Jinja2==3.1.2
 joblib==1.1.0
@@ -56,6 +60,7 @@ nbclient==0.6.2
 nbconvert==6.5.0
 nbformat==5.4.0
 nest-asyncio==1.5.5
+notebook==6.4.11
 numpy==1.22.3
 oauthlib==3.2.0
 opt-einsum==3.3.0
@@ -68,6 +73,7 @@ pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==9.1.0
 platformdirs==2.5.2
+prometheus-client==0.14.1
 prompt-toolkit==3.0.29
 protobuf==3.20.1
 psutil==5.9.0
@@ -75,6 +81,7 @@ ptyprocess==0.7.0
 pure-eval==0.2.2
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
+pycparser==2.21
 pygame==2.1.0
 Pygments==2.12.0
 pyparsing==3.0.8
@@ -87,6 +94,7 @@ requests-oauthlib==1.3.1
 rsa==4.8
 scikit-learn==1.0.2
 scipy==1.8.0
+Send2Trash==1.8.0
 six==1.16.0
 soupsieve==2.3.2.post1
 stack-data==0.2.0
@@ -97,6 +105,7 @@ tensorflow==2.8.0
 tensorflow-io-gcs-filesystem==0.25.0
 tensorflow-probability==0.16.0
 termcolor==1.1.0
+terminado==0.15.0
 tf-agents==0.12.1
 tf-estimator-nightly==2.8.0.dev2021122109
 threadpoolctl==3.1.0
