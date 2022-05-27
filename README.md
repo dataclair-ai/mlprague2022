@@ -19,6 +19,10 @@ To ensure you are ready for the workshop kindly follow these steps:
    - either transform them on your own using command - `make dataset`
    - or download preprocessed data using command - `make blob`
 
+> On M1 Macs you must replace `tensorflow` with `tensorflow-macos` and remove `tensorflow-io-gcs-filesystem` from `requirements.txt`. More info [here](https://developer.apple.com/metal/tensorflow-plugin/).
+
+> For running in Google Colab replace first cell in notebooks with content from `src/practice/colab_settings.ipynb`.
+
 # Contribute
 Should you encounter any problem, or find any errors (typos, bugs), feel free to open an issue or PR directly.
 We use [black](https://black.readthedocs.io/en/stable/) for code formatting (including notebooks), so please ensure your code was formatted the same way before submitting it.
