@@ -19,7 +19,11 @@ To ensure you are ready for the workshop kindly follow these steps:
    - either transform them on your own using command - `make dataset`
    - or download preprocessed data using command - `make blob`
 
-> On M1 Macs you must replace `tensorflow` with `tensorflow-macos` and remove `tensorflow-io-gcs-filesystem` from `requirements.txt`. More info [here](https://developer.apple.com/metal/tensorflow-plugin/).
+> On M1 Macs you must replace `tensorflow` with `tensorflow-macos` and remove `tensorflow-io-gcs-filesystem` from `requirements.txt`. More info [here](https://developer.apple.com/metal/tensorflow-plugin/). So, update `requirements.txt` and run
+> ```bash
+> conda install -c apple tensorflow-deps
+> pip install -r requirements.txt
+> ```
 
 > For running in Google Colab replace first cell in notebooks with content from `src/practice/colab_settings.ipynb`.
 
