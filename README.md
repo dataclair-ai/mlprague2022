@@ -1,6 +1,5 @@
 # Introduction 
 This repository contains the content for the "Practical aspects of reinforcement learning" workshop at MLPrague 2022.  
-The content will be released just before the workshop and will be accessible even after the conference.
 
 # Content and Authors
 
