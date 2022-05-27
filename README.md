@@ -6,8 +6,12 @@ The content will be released just before the workshop and will be accessible eve
 # Getting Started
 To ensure you are ready for the workshop kindly follow these steps:
 1.	Setup your environment for Python 3.8 (newer versions should be OK as well)
-    - it generally shouldn't matter which tool you use (we have tested virtualenv and conda)
+    - it generally shouldn't matter which tool you use
+      - we have tested virtualenv and conda
     - based on your tool of choice, use **pip** `requirements.txt` or **conda** `environment.yml` and install the required packages
+1. Prepare the data
+   - either transform them on your own using command - `make dataset`
+   - or download preprocessed data using command - `make blob`
 
 # Contribute
 Should you encounter any problem, or find any errors (typos, bugs), feel free to open an issue or PR directly.
