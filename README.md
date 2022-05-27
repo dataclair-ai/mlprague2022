@@ -23,6 +23,7 @@ To ensure you are ready for the workshop kindly follow these steps:
 > ```bash
 > conda install -c apple tensorflow-deps
 > pip install -r requirements.txt
+> pip install tensorflow-metal
 > ```
 
 > For running in Google Colab replace first cell in notebooks with content from `src/practice/colab_settings.ipynb`.
